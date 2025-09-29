@@ -3,7 +3,7 @@ session_start();
 require_once '../../includes/dbh.inc.php';
 require_once '../../includes/auth_check.php';
 require_once '../../includes/path_resolver.php';
-require_once '../../includes/role_based_sidebar.php';
+// require_once '../../includes/role_based_sidebar.php';
 
 // Ensure the user is logged in and is a Councillor
 if (!isLoggedIn() || $_SESSION['role'] !== 'Councillor') {

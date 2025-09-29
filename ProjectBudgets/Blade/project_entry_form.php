@@ -3,7 +3,7 @@ session_start();
 require_once '../../includes/dbh.inc.php';
 require_once '../../includes/auth_check.php';
 require_once '../../includes/path_resolver.php';
-require_once '../../includes/role_based_sidebar.php'; // Include the sidebar based on user role
+// require_once '../../includes/role_based_sidebar.php'; // Include the sidebar based on user role
 
 // Ensure the user is logged in
 if (!isLoggedIn()) {

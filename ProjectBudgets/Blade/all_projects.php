@@ -3,7 +3,7 @@ session_start();
 require_once '../../includes/dbh.inc.php';
 require_once '../../includes/auth_check.php';
 require_once '../../includes/path_resolver.php';
-require_once '../../includes/role_based_sidebar.php'; // Include role-based sidebar which also includes the top bar
+// require_once '../../includes/role_based_sidebar.php'; // Include role-based sidebar which also includes the top bar
 
 
 // Enable error reporting for debugging
@@ -219,9 +219,6 @@ try {
                 <!-- Page Content Goes Here -->
                 
     <div class="flex">
-        <!-- Include the role-based sidebar -->
-        <?php include '../../includes/role_based_sidebar.php'; ?>
-
         <!-- Main Content -->
         <div class="flex-1 p-6" style="margin-top: 80px;">
             
