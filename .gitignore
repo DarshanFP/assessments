@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+test*.php
+debug*.php
+*.bak
+
+# Vendor
+vendor/
+composer.lock
+
+# Uploads
+uploads/
+temp/
+
+# Session files
+sess_*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# History (keep for reference but can exclude if needed)
+# .history/
+
+# Specific test files (optional to exclude)
+# test.php
+# debug_paths.php
+# check_password_reset_tokens.php
+# create_password_reset_table.php
+# debug_password_reset.php
+# install_phpmailer.php
+# setup_centres.php
+# test_db_connection.php
+# test_email_configuration.php
+# test_email_delivery.php
+# test_final_layout.php
+# test_unified_layout.php
